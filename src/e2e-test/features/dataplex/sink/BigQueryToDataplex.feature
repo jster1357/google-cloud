@@ -13,7 +13,6 @@ Feature: Dataplex sink - Verification of BQ source to dataplex sink with update 
    Then Enter BigQuery property datasetProjectId "projectId"
    Then Enter BigQuery property dataset "dataset"
    Then Enter BigQuery source property table name
-   Then Override Service account details if set in environment variables
    Then Enter BiqQuery property encryption key name "cmekBQ" if cmek is enabled
    Then Validate output schema with expectedSchema "bqSourceSchema"
    Then Validate "BigQuery" plugin properties
