@@ -148,6 +148,22 @@
               "label": "False"
             }
           }
+        },
+        {
+          "widget-type": "toggle",
+          "label": "Use Quotes",
+          "name": "useQuotes",
+          "widget-attributes": {
+            "default": "false",
+            "on": {
+              "value": "true",
+              "label": "True"
+            },
+            "off": {
+              "value": "false",
+              "label": "False"
+            }
+          }
         }
       ]
     },
@@ -353,6 +369,9 @@
       "show": [
         {
           "name": "writeHeader"
+        },
+        {
+          "name": "useQuotes"
         }
       ]
     }
