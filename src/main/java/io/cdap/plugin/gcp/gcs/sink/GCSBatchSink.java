@@ -323,6 +323,12 @@ public class GCSBatchSink extends AbstractFileSink<GCSBatchSink.GCSBatchSinkConf
       "and tsv formats.")
     private Boolean writeHeader;
 
+    @Macro
+    @Nullable
+    @Description("Whether the fields of the file should be encapsulated with quotations. This only applies to the delimited, csv, " +
+            "and tsv formats.")
+    private Boolean useQuotes;
+
     @Description("The schema of the data to write. The 'avro' and 'parquet' formats require a schema but other "
       + "formats do not.")
     @Macro
