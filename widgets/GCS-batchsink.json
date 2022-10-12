@@ -140,6 +140,22 @@
               "label": "False"
             }
           }
+        },
+        {
+          "widget-type": "toggle",
+          "label": "Double Quote Fields",
+          "name": "useQuotes",
+          "widget-attributes": {
+            "default": "false",
+            "on": {
+              "value": "true",
+              "label": "True"
+            },
+            "off": {
+              "value": "false",
+              "label": "False"
+            }
+          }
         }
       ]
     },
